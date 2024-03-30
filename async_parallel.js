@@ -20,6 +20,8 @@ let tasks = [
   createAsyncTask(),
 ];
 
+// here calling the function in an array is working
+
 function asyncParallel(tasks, callback) {
   let error = [];
   let result = [];
